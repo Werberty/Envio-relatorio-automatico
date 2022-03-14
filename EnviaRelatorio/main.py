@@ -18,10 +18,10 @@ pyperclip.copy(
     'https://drive.google.com/drive/folders/149xknr9JvrlEnhNWO49zPcw0PW5icxga')
 pyautogui.hotkey('ctrlleft', 'v')
 pyautogui.press('enter')
-time.sleep(3)
+time.sleep(4)
 
 pyautogui.doubleClick(x=424, y=328)
-time.sleep(3)
+time.sleep(4)
 
 pyautogui.click(x=381, y=405)
 pyautogui.click(x=1160, y=217)
@@ -50,9 +50,9 @@ pyautogui.press('enter')
 time.sleep(4)
 
 pyautogui.click(x=77, y=229)
-time.sleep(2)
+time.sleep(3)
 pyautogui.write('werbertydroid@gmail.com')
-    # pyautogui.hotkey('ctrl', 'v')
+# pyautogui.hotkey('ctrl', 'v')
 pyautogui.press('tab')
 pyautogui.press('tab')
 pyperclip.copy('Relatório de vendas')
@@ -70,4 +70,4 @@ Top 5 produtos mais vendidos:
 {mais_vendidos}'''
 pyperclip.copy(corpo_email)
 pyautogui.hotkey('ctrl', 'v')
-# pyautogui.hotkey('ctrl', 'enter')
+pyautogui.hotkey('ctrl', 'enter')
